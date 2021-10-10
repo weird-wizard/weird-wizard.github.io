@@ -12,3 +12,22 @@
     width: 100px;
     height: 100px;
 }
+
+.comments-and-visitors {
+    max-width: 1160px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.comments-and-visitors .leancloud_visitors {}
+
+#vcomments {
+    margin: 2em auto 0;
+    background: hsla(0,0%,100%,.8);
+}
+
+#vcomments #veditor {
+    min-height: 4em;
+    /* background-color: #fdfdfd; */
+}
