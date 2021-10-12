@@ -8,26 +8,53 @@
     margin-bottom: 10px;
 }
 
+/* 首页中间logo */
 .header-bg .bg-content .site-logo {
     width: 100px;
     height: 100px;
 }
 
+/* 阅读数和评论块 */
 .comments-and-visitors {
     max-width: 1160px;
-    box-sizing: border-box;
-    padding: 0 16px;
     margin: 0 auto;
 }
 
-.comments-and-visitors .leancloud_visitors {}
-
-#vcomments {
-    margin: 2em auto 0;
-    background: hsla(0,0%,100%,.8);
+/* 阅读数块 */
+.comments-and-visitors .visitors {
+    padding-right: 4em;
+    text-align: right;
+    color: #777;
+    margin-bottom: -1em;
+}
+/* 阅读数span */
+.comments-and-visitors .visitors .leancloud_visitors {
+    position: relative;
+    top: -2em;
+    z-index: 101;
+}
+/* 阅读数和评论分割线 */
+.divition-line {
+    width: 1000px;
+    height: 0;
+    margin: 0 auto;
+    border: 1px solid #e06c75;;
 }
 
+/* 评论块 */
+#vcomments {
+    margin: 0 auto;
+    margin-top: 4em;
+    max-width: 1000px;
+}
+
+/* 评论输入 */
 #vcomments #veditor {
     min-height: 4em;
     /* background-color: #fdfdfd; */
+}
+
+/* 文章内容 */
+.article-content div.content {
+    max-width: 1000px;
 }
