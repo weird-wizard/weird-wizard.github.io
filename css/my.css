@@ -37,13 +37,14 @@
 /* 阅读数和评论分割线 */
 .divition-line {
     max-width: 1000px;
-    height: 0;
+    height: 2px;
     margin: 0 auto;
-    border-bottom: 1px solid #e06c75;;
+    background-color: #e06c75;
+    border: none;
 }
 
 /* 评论块 */
-#vcomments {
+#vcomments {    
     margin: 0 auto;
     margin-top: 4em;
     max-width: 1000px;
