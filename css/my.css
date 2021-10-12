@@ -18,6 +18,7 @@
 .comments-and-visitors {
     max-width: 1160px;
     margin: 0 auto;
+    padding: 0 1em;
 }
 
 /* 阅读数块 */
@@ -38,7 +39,7 @@
     max-width: 1000px;
     height: 0;
     margin: 0 auto;
-    border: 1px solid #e06c75;;
+    border-bottom: 1px solid #e06c75;;
 }
 
 /* 评论块 */
